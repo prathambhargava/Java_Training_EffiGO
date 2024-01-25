@@ -1,4 +1,4 @@
-public class Main extends Thread {
+public class Creatingthreads {
     public static void main(String[] args) {
       Main thread = new Main();
       thread.start();
