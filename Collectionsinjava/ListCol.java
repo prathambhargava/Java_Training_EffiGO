@@ -1,0 +1,5 @@
+package Collectionsinjava;
+
+class ListCol {
+    
+}
