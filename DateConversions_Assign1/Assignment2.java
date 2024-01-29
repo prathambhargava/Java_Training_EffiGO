@@ -38,10 +38,10 @@ public class Assignment2 {
         Collections.sort(dateList, Comparator.naturalOrder());
 
         System.out.println("Original Date: " + localDT.format(formatter));
-        System.out.println("After Adding one day: " + addOneDay.format(formatter));
-        System.out.println("After Subtracting 10 days: " + minusTenDays.format(formatter));
-        System.out.println("After Adding 1 hour: " + addOneHour.format(formatter));
-        System.out.println("After Subtracting 5 hours and 30 minutes: " + minusFiveHoursThirtyMins.format(formatter));
+        System.out.println("Add one day: " + addOneDay.format(formatter));
+        System.out.println("Minus 10 days: " + minusTenDays.format(formatter));
+        System.out.println("Add 1 hour: " + addOneHour.format(formatter));
+        System.out.println("Minus 5 hours and 30 minutes: " + minusFiveHoursThirtyMins.format(formatter));
 
         System.out.println("\nSorted Dates:");
         for (LocalDateTime date : dateList) {
