@@ -9,7 +9,7 @@ import java.util.Set;
 public class Setexamples {
     public static void main(String[] args) {
         Integer[] A = {10,20,30,40,50,60};
-        Integer[] B = {20,33,40,13,20,42};
+        Integer[] B = {20,33,40,13,10,42};
         Set<Integer> Set1 = new HashSet<Integer>();
         Set1.addAll(Arrays.asList(A));
 
@@ -17,7 +17,7 @@ public class Setexamples {
         Set2.addAll(Arrays.asList(B));
 
         Set<Integer> Uniondata = new HashSet<Integer>(Set1);
-        Uniondata.addAll(Set2);
+        Uniondata.retainAll(Set2);
         System.out.println(Uniondata);
 
         Set<String> data = new LinkedHashSet<String>();
